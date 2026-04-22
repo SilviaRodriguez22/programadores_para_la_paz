@@ -1,24 +1,24 @@
-	 ───────────┐
+     	 ───────────┐
         │   INICIO  
         └─────┬─────┘
-             	│
+          	  │
       ┌──────▼────────┐
       │ Ingresar      
       │ publicación   
       └───────┬───────┘
-                 │
+              │
       ┌───────▼────────┐
       │ ¿Fuente        
       │ identificada?  
-      └───┬─────┬──────┘
+      └───┬────────┬──────┘
           SI       NO
           │        │
           │        ▼
           │  ┌──────────────┐
           │  │ No confiable 
           │  └──────┬───────┘
-          │            │
-          │            ▼
+          │         │
+          │         ▼
           │      ┌─────┐
           │      │ FIN 
           │      └─────┘
@@ -28,52 +28,52 @@
 │ Evaluar credibilidad
 │ de la fuente        
 └────────┬────────────┘
-       	    │
-       	    ▼
+         │
+         ▼
 ┌─────────────────────┐
 │ Revisar fecha        
 │ ¿Está actualizada?  
-└─────┬───────┬───────┘
-     SI            NO
-        │          │
-        │          ▼
-        │ 		 (marcar
- 	│	  alerta)
+└─────┬───────────┬───┘
+     SI           NO
+        │         │
+        │         ▼
+        │ 	  (marcar
+    	│	   alerta)
         │
         ▼
 ┌─────────────────────┐
 │ Comparar con otras  
 │ fuentes             
-└─────┬───────┬───────┘
-        SI         NO
-        │          │
-        │          ▼
-        │  (no verificada)
-        │
-        ▼
+└─────┬───────────┬───────┘
+      SI          NO
+      │           │
+      │           ▼
+      │    (no verificada)
+      │
+      ▼
 ┌─────────────────────┐
 │ Analizar contenido  
 │ (¿alarmista?)       
 └─────┬───────┬───────┘
-        NO         SI
-        │          │
-        │          ▼
-        │       (alerta)
-        │
-        ▼
+      NO     SI
+      │      │
+      │      ▼
+      │   (alerta)
+      │
+      ▼
 ┌────────────────────────────────
 │	¿Cumple todas las       
 │	 condiciones?            
 └─────┬────────────────────┬─────
-        SI                           NO
-        │                            │
-        ▼                           ▼
+      SI                  NO
+      │                   │
+      ▼                   ▼
 ┌────────────────┐┌────────────────┐
-  Compartir                  No compartir   
-  información                información    
+  Compartir           No compartir   
+  información         información    
 └──────┬─────────┘└───────┬────────┘
-         │           	  			│
-         ▼                         ▼
-    ┌─────┐           	   ┌─────┐
-       FIN                  	 FIN 
-    └─────┘           	   └─────┘
+       │                  │
+       ▼                  ▼
+    ┌─────┐           ┌─────┐
+     FIN                FIN 
+    └─────┘           └─────┘
